@@ -41,6 +41,11 @@ h2 {
 h3 {
     font-size: 1.5rem;
 }
+
+h5 {
+    color: #7289da;
+    font-size: 0.7rem;
+}
 /* root elements */
 
 /*buttons*/
@@ -288,7 +293,8 @@ main .grey {
 .footer-columns {
     font-size: 0.7rem;
     display: flex;
-    min-height: 350px;
+    min-height: 280px;
+    border-bottom: 1px solid #4a5882;
 }
 
 .footer-columns .jumbo-col {
@@ -321,9 +327,12 @@ main .grey {
 }
 
 .footer-columns .smaller-col {
-    background-color: #1FB2AA;
-    border: 1px dashed #fff;
     min-width: 170px;
+}
+
+ul li {
+    list-style: none;
+    padding-top: 8px;
 }
 
 .container .credits {
