@@ -35,7 +35,7 @@ h1 {
 
 h2 {
     font-size: 2.4rem;
-    color: #000;
+    color: #23272A;
 }
 
 h3 {
@@ -106,9 +106,8 @@ h3 {
     padding: 6.5rem 0;
 }
 
-.padding-bottom-footer {
-    padding-top: 2rem;
-    padding-bottom: 0;
+.padding-footer {
+    padding: 4rem 0 2rem 0;
 }
 /* padding values */
 
@@ -249,7 +248,7 @@ main .grey {
 }
 
 .central-section-macro p {
-    color: #000;
+    color: #23272A;
     text-align: center;
     line-height: 25px;
     width: 80%;
@@ -273,7 +272,7 @@ main .grey {
 }
 
 .central-section-macro h3 {
-    color: #000;
+    color: #23272A;
     text-align: center;
     margin-top: -15px;
 }
@@ -287,16 +286,38 @@ main .grey {
 
 /* footer */
 .footer-columns {
+    font-size: 0.7rem;
     display: flex;
-    min-height: 450px;
-    margin-top: -20px;
-    border: 1px dashed #000;
+    min-height: 350px;
 }
 
 .footer-columns .jumbo-col {
-    background-color: #F08080;
-    border: 1px dashed #000;
     flex-grow: 1;
+    padding-right: 60px;
+}
+
+.jumbo-col h3 {
+    color: #7289da;
+}
+
+.language {
+    padding-top: 15px;
+}
+
+.flag {
+    height: 10px;
+    vertical-align: middle;
+}
+
+.ita {
+    font-size: 0.6rem;
+    vertical-align: middle;
+}
+
+.social-icons {
+    display: flex;
+    padding-top: 15px;
+    gap: 20px;
 }
 
 .footer-columns .smaller-col {
