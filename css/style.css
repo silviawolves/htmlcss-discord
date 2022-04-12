@@ -87,7 +87,7 @@ h2 {
 }
 
 .padding-sections {
-    padding: 6rem 0;
+    padding: 6.5rem 0;
 }
 
 .padding-bottom-footer {
@@ -169,7 +169,7 @@ main .white {
 }
 
 main .grey { 
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
     height: 100%;
 }
 
@@ -182,10 +182,23 @@ main .grey {
 .central-section-img {
     height: 100%;
     flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.central-section-img-reverse {
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .central-section-img img {
-    width: 80%;
+    width: 75%;
+}
+
+.central-section-img-reverse img {
+    width: 75%;
 }
 
 .central-section-text {
