@@ -35,6 +35,11 @@ h1 {
 
 h2 {
     font-size: 2.4rem;
+    color: #000;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 /* root elements */
 
@@ -64,6 +69,17 @@ h2 {
     border-width: 0;
     padding: 13px 25px;
     margin-right: 20px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.btn-big-violet {
+    font-size: 1rem;
+    background-color: #8ea1e1;
+    border-width: 0;
+    margin-top: 30px;
+    margin-left: auto;
+    padding: 13px 25px;
     border-radius: 25px;
     color: #fff;
 }
@@ -220,13 +236,52 @@ main .grey {
 }
 
 .last-section {
-    height: 800px;
+    min-height: 900px;
+    max-height: 1200px;
 }
 
-.central-section-green {
-    background-color: #228B22;
-    border: 1px dashed #000;
+.central-section-macro {
     height: 100%;
+}
+
+.central-section-macro h2 {
+    text-align: center;
+}
+
+.central-section-macro p {
+    color: #000;
+    text-align: center;
+    line-height: 25px;
+    width: 80%;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.last-main-section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.stars {
+    height: 45px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.central-section-macro h3 {
+    color: #000;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.last-main-button {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 /* main */
 
