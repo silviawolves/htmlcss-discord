@@ -88,6 +88,15 @@ h5 {
     border-radius: 25px;
     color: #fff;
 }
+
+.btn-small-violet {
+    font-size: 0.7rem;
+    background-color: #8ea1e1;
+    border-width: 0;
+    padding: 8px 10px;
+    border-radius: 25px;
+    color: #fff;
+}
 /*buttons*/
 
 .container {
@@ -113,6 +122,10 @@ h5 {
 
 .padding-footer {
     padding: 4rem 0 2rem 0;
+}
+
+.padding-footer-trademark {
+    padding: 0 0 4rem 0;
 }
 /* padding values */
 
@@ -335,23 +348,20 @@ ul li {
     padding-top: 8px;
 }
 
+/*footer-credits*/
 .container .credits {
-    background-color: #7FFFD4;
-    min-height: 60px
+    min-height: 30px
+}
+
+.last-logo {
+    height: 25px;
 }
 
 .credits .last-buttons {
-    min-height: 60px;
+    min-height: 30px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
-
-.buttons {
-    background-color: #FFB6C1;
-    border: 2px dashed #000;
-    text-align: center;
-    height: 30px;
-    padding: 5px;
-}
+/*footer-credits*/
 /* footer */
