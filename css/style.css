@@ -36,7 +36,7 @@ h1 {
 
 /*buttons*/
 .btn-small {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     background-color: #fff;
     border-width: 0;
     padding: 8px 10px;
@@ -44,7 +44,7 @@ h1 {
     color: #000;
 }
 
-.btn-big {
+.btn-big-white {
     font-size: 1rem;
     background-color: #fff;
     border-width: 0;
@@ -52,6 +52,16 @@ h1 {
     margin-right: 20px;
     border-radius: 25px;
     color: #000;
+}
+
+.btn-big-dark {
+    font-size: 1rem;
+    background-color: #23272A;
+    border-width: 0;
+    padding: 13px 20px;
+    margin-right: 20px;
+    border-radius: 25px;
+    color: #fff;
 }
 /*buttons*/
 
@@ -82,6 +92,7 @@ h1 {
 header img {
     height: 30px;
 }
+
 .nav-bar {
     display: flex;
     width: 100%;
@@ -117,7 +128,7 @@ header img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 400px;
+    height: 380px;
 }
 
 .container .header-section {
@@ -137,6 +148,11 @@ header img {
     margin: 0 auto;
     padding-bottom: 20px;
 }
+
+i {
+    font-size: 0.9rem;
+}
+
 /* header */
 
 /* main */
