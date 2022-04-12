@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #3161E0;
+    background-color: #265EE8;
     height: 100%;
 }
 
@@ -32,6 +32,10 @@ footer {
 h1 {
     font-size: 2.6rem;
 }
+
+h2 {
+    font-size: 2.4rem;
+}
 /* root elements */
 
 /*buttons*/
@@ -48,7 +52,7 @@ h1 {
     font-size: 1rem;
     background-color: #fff;
     border-width: 0;
-    padding: 13px 20px;
+    padding: 13px 25px;
     margin-right: 20px;
     border-radius: 25px;
     color: #000;
@@ -58,7 +62,7 @@ h1 {
     font-size: 1rem;
     background-color: #23272A;
     border-width: 0;
-    padding: 13px 20px;
+    padding: 13px 25px;
     margin-right: 20px;
     border-radius: 25px;
     color: #fff;
@@ -78,8 +82,12 @@ h1 {
     padding: 20px 0 50px 0;
 }
 
-.padding-sections {
+.padding-central-header {
     padding: 2rem 0;
+}
+
+.padding-sections {
+    padding: 6rem 0;
 }
 
 .padding-bottom-footer {
@@ -152,37 +160,46 @@ header img {
 i {
     font-size: 0.9rem;
 }
-
 /* header */
 
 /* main */
 main .white { 
     background-color: #fff;
-    min-height: 100%;
+    height: 100%;
 }
 
 main .grey { 
     background-color: #D3D3D3;
+    height: 100%;
 }
 
 .central-section {
     display: flex;
-    height: 450px;
+    height: 100%;
     width: 100%;
 }
 
-.central-section-blue {
-    background-color: #1E90FF;
+.central-section-img {
     height: 100%;
     flex-grow: 1;
-    border: 1px dashed #000;
 }
 
-.central-section-pink {
-    background-color: #FFC0CB;
+.central-section-img img {
+    width: 80%;
+}
+
+.central-section-text {
     height: 100%;
-    min-width: 400px;
-    border: 1px dashed #000;
+    min-width: 280px;
+    max-width: 300px;
+    color: #23272A;
+    padding-top: 25px;
+}
+
+.central-section-text p {
+    line-height: 25px;
+    width: 90%;
+    padding-top: 20px;
 }
 
 .reverse {
