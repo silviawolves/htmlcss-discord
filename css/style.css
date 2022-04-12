@@ -17,7 +17,7 @@ header {
 }
 
 a {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #fff;
     text-decoration: none;
     padding: 0 15px 0 15px;
@@ -28,7 +28,32 @@ footer {
     background-color: #23272A;
     height: 100%;
 }
+
+h1 {
+    font-size: 2.6rem;
+}
 /* root elements */
+
+/*buttons*/
+.btn-small {
+    font-size: 0.8rem;
+    background-color: #fff;
+    border-width: 0;
+    padding: 8px 10px;
+    border-radius: 25px;
+    color: #000;
+}
+
+.btn-big {
+    font-size: 1rem;
+    background-color: #fff;
+    border-width: 0;
+    padding: 13px 20px;
+    margin-right: 20px;
+    border-radius: 25px;
+    color: #000;
+}
+/*buttons*/
 
 .container {
     width: 100%;
@@ -96,11 +121,21 @@ header img {
 }
 
 .container .header-section {
-    background-color: #EF82EE;
-    border: 1px dashed #000;
     height: 80%;
     width: 75%;
     margin: 0 auto;
+    text-align: center;
+}
+
+.header-section h1 {
+    padding-bottom: 30px;
+}
+
+.introduction {
+    line-height: 25px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
 /* header */
 
@@ -189,12 +224,3 @@ main .grey {
     padding: 5px;
 }
 /* footer */
-
-.btn-small {
-    font-size: 0.8rem;
-    background-color: #fff;
-    border-width: 0;
-    padding: 8px 10px;
-    border-radius: 25px;
-    color: #000;
-}
