@@ -73,3 +73,14 @@
     box-shadow: 0px 5px 20px -5px #23272A;
 }
 /*buttons*/
+
+/*svg element*/
+svg {
+    display: block;
+    width: 100%;    
+}
+
+.wave-reverse {
+    transform: rotate(180deg);
+}
+/*svg element*/
